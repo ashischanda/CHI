@@ -1,0 +1,353 @@
+/*/////////////////////*/
+/*//// Google Font ////*/
+/*/////////////////////*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Sarabun:400,400i,500,500i,600,600i,700,700i,800,800i');
+
+/*//////////////////////*/
+/*/// Global Styling ///*/
+/*//////////////////////*/
+html, body {
+  background-color: #fff;
+  color: #38384f;
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  transition: ease-in-out 200ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oxygen", sans-serif;
+  color: #db342c;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.75em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.25em;}
+h5 {font-size: 1em;}
+h6 {font-size: .75em;}
+
+p {font-size: 1em;}
+
+a:link, 
+a:visited {
+  border-bottom: 1px solid #54c6b6;
+  color: #38384f; 
+  font-weight: 600;
+}
+
+a:hover {
+  border-bottom: 3px solid #ba1c1c;
+  color: #db342c;
+  text-decoration: none;
+}
+
+abbr[data-original-title], abbr[title] { /* Use for the first occurrence of an acronym/abbreviation on each page */
+  border-bottom: 1px dashed #54c6b6;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #54c6b6;
+  color: #fff;
+}
+
+
+
+/*////////////////////////*/
+/*/// Includes Styling ///*/
+/*////////////////////////*/
+/*///// Main /////*/
+main {
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 150px;
+}
+
+/*///// Header & Nav /////*/
+header {
+  align-items: center;
+  background-color: #28283d;
+  border-bottom: 3px solid #ba1c1c;
+  display: flex;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+}
+
+.clearance { /* adds offset space under fixed-header */
+  background-color: #28283d; /* same color as header to remove whitespace */
+  height: 100px; /* = to height of header */
+  width: 100%;
+}
+
+header a:link,
+header a:visited {
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+header ul li {
+  margin: 0 6px;
+}
+
+header ul li a:hover {
+  background-color: #fff;
+  border: none;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  color: #db342c;
+}
+
+header .tu-logo {
+  height: 32px;
+  width: auto;
+}
+
+
+/*///// Jumbotron /////*/
+.jumbotron {
+  background-color: #28283d;
+  background-image: url("../images/jumbotron-bg.svg");
+  background-size: cover;
+  border-radius: 0; 
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
+/*///// Site Header /////*/
+.site-header {
+  background-color: #ba1c1c;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: inline-block;
+  left: -30px;
+  padding: 30px 45px 10px 30px;
+  position: relative;
+  top: -32px;
+}
+
+.site-header h1 {
+  color: #fff;
+}
+
+/*///// Footer /////*/
+footer {
+  align-items: center;
+  display: flex;
+  height: 160px;
+  justify-content: center;
+}
+
+footer a:link,
+footer a:visited {
+  border: none;
+}
+
+footer ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+
+
+/*//////////////////////////////////*/
+/*/// Page-specific CSS Override ///*/
+/*//////////////////////////////////*/
+.home-section, .about-section, .research-section, 
+.people-section, .contact-section {
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/*///// Home /////*/
+/*/// Home Section ///*/
+.home-section img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+/*/// Latest News ///*/
+.news-container {
+  background-color: #fff;
+  height: 100%;
+  max-height: 300px;
+  overflow: auto;
+  padding: 15px 0;
+}
+
+.news .date {
+  background-color: #28283d;
+  border-top-left-radius: 8px;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+.news img {
+  width: 100%;
+  padding: 15px;
+}
+
+.news p {
+  padding-left: 15px;
+}
+
+/*/// Cards ///*/
+.home-card {
+  background-color: #efefef;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.home-card-title {
+  background-color: #db342c;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+  margin-bottom: 0;
+  padding: .75em 1.25em;
+}
+
+a.home-card-btn {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 0px 5px 2px #92929b;
+  color: #38384f;
+  font-weight: 600;
+  width: 100%;
+}
+
+a.home-card-btn:hover {
+  background-color: #2e2e3a;
+  border: none;
+  color: #fff;
+}
+
+
+/*///// About /////*/
+
+
+
+/*///// Research /////*/
+
+
+
+/*///// People /////*/
+.people-section {
+  align-items: flex-start;
+  text-align: center;
+}
+
+.people-section img {
+  border-radius: 100%;
+  display: block;
+  margin: 15px auto 0 auto;
+  max-width: 100%;
+  padding: 15px;
+  width: 300px;
+}
+
+.people-section a img:hover {
+  mix-blend-mode: luminosity;
+  opacity: 0.8;
+  padding: 25px;
+}
+
+.people-section .specialty {
+  font-size: 0.74em;
+  font-weight: 600;
+}
+
+.people-section ul {
+  list-style-type: circle;
+  text-align: left;
+}
+
+/*/// Person ///*/
+/*/ Side /*/ 
+.person-aside {
+  border-right: 4px solid #eee;
+}
+
+.person-aside > img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  width: 100%;
+}
+
+table.person-aside-info {
+  margin: 0 auto;
+}
+
+table.person-aside-info tr th {
+  color: #db342c;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  padding: 5px;
+}
+
+table.person-aside-info td {
+  padding: 5px;
+}
+
+table.person-aside-info td img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*/ Summary /*/
+.person-summary {
+  padding: 75px 5%;
+}
+
+.person-summary h1.name {
+  font-size: 2em;
+}
+
+.person-summary hr {
+  border: 1px solid #db342c;
+  margin: 5px 0;
+}
+
+.person-summary ul {
+  list-style-type: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.person-summary ul li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.person-summary ul li img {
+  height: auto;
+  width: 24px;
+  margin-right: 5px;
+}
+
+
+/*///// Contact /////*/

@@ -1,0 +1,177 @@
+/*/////////////////////////////*/
+/*/////// Small Devices ///////*/
+/*/////////////////////////////*/
+@media (max-width: 768px) {
+  
+  /*////// Global Styling /////*/
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  p {font-size: 1.1em;}
+  
+  
+  /*////// Page-specific CSS Override /////*/
+  /*/// Home ///*/
+  .news .date {
+    border-top-right-radius: 8px;
+    text-align: center;
+  }
+  
+  /*/// People ///*/
+  /*/ Person Aside /*/
+  .person-aside {
+    border: none;
+  }
+  
+  .person-aside > img {
+    margin-top: 60px;
+  }
+  
+  table.person-aside-info {
+    margin: 30px auto;
+  }
+  
+  table.person-aside-info tr.name th {
+    font-size: 1.65em;
+    font-weight: 400;
+  }
+  
+  /*/ Person Summary /*/
+  .person-summary {
+    padding-top: 0;
+  }
+}
+
+/*//////////////////////////////*/
+/*/////// XSmall Devices ///////*/
+/*//////////////////////////////*/
+@media (max-width: 576px) {
+  
+  /*///// Includes Styling /////*/
+  header.mobile-header {
+    background-image: url("../images/mobile-header-bg.svg");
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-size: 3.5vw;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }
+  
+  header.mobile-header > a:link, 
+  header.mobile-header > a:visited {
+    color: #fff;
+    height: 100%;
+    line-height: 0;
+  }
+  
+  header.mobile-header > a:hover {
+    color: #db342c;
+    text-decoration: none;
+  }
+  
+  header, .clearance {
+    height: 70px;
+    border: none;
+  }
+  
+  header img.mobile-menu {
+    height: 70px;
+    width: 70px;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+  
+  /*/// Mobile Nav ///*/
+  .overlay {  
+    background-color: #ba1c1c;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    width: 0;
+    z-index: 2000;
+  }
+
+  .overlay-content {
+    margin-top: 15px;
+    padding: 0 30px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+  }
+
+  .overlay a:link,
+  .overlay a:visited {
+    color: #fff;
+    display: block;
+    font-size: 1.75em;
+    line-height: 1.75em;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+  .overlay-content a:focus,
+  .overlay-content a:hover {
+    background-color: #eee;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    color: #db342c;
+    transition: ease-in-out 0ms;
+  }
+
+  .overlay a.closebtn {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-size: 3em;
+  }
+  
+  /*/// Site Header ///*/
+  .site-header {
+    top: 0;
+    margin-bottom: 30px;
+  }
+  
+  /*////// Page-specific CSS Override /////*/
+  /*/// Home ///*/
+  .news hr {
+    border: 1px solid #54c6b6;
+    margin: 30px 0 15px 0;
+  }
+  
+  .news em {
+    background-color: #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  a.back {
+    display: inline-block;
+    background-color: #ba1c1c;
+    padding: 10px 45px 10px 30px;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 400;
+    border: none;
+    margin-top: 15px;
+    margin-left: -30px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  a.back:hover {
+    border: none;
+    text-decoration: none;
+  }
+}
