@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h1>Center for <br /><b>Cognitive Computing</b></h1>
+					<h1>Center for <br /><b>Hybrid Intelligence</b></h1>
 				</div>
 			</div>
 		</div>
