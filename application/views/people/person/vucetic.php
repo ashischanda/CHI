@@ -14,11 +14,11 @@
             </tr>
             <tr class="department">
               <td></td>
-              <td>Department of X</td>
+              <td>Center for Hybrid Intelligence </td>
             </tr>
             <tr class="office">
               <td><img src="images/people/person/office.svg" width="26" alt="Office" /></td>
-              <td><b>SERC 3XX</b></td>
+              <td><b>SERC 314</b></td>
             </tr>
             <tr class="gscholar">
               <td><img src="images/people/person/gscholar.svg" width="26" alt="Google Scholar" /></td>
