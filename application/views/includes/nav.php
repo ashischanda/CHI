@@ -24,12 +24,7 @@
                 <a href="contact" class="nav-link">Contact</a>
               </li>
 
-              <li class="nav-item">
-                <a href="rough" class="nav-link">Rough</a>
-              </li>
-
-
-            </ul>
+              </ul>
           </div>
         </div>
     </div>
@@ -49,6 +44,5 @@
         </div>
       </div>
       <img src="images/menu.svg" class="mobile-menu" onclick="openNav()" />
-      <a href="home"><h1>Center for <b>Cognitive Computing</b></h1></a>
+      <a href="home"><h1>Center for <b>Hybrid Intelligence</b></h1></a>
   </header>
-
