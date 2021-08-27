@@ -34,7 +34,7 @@
             </tr>
             <tr class="phone d-md-none">
               <td><img src="images/people/person/phone.svg" width="26" alt="Phone" /></td>
-              <td><a href="tel:215-204-5535" title"Call">(215) 204-5535</a></td>
+              <td><a href="tel:215-204-8450" title"Call">215-204-8450</a></td>
             </tr>
           </table>
       </div>
@@ -48,7 +48,7 @@
               <img src="images/people/person/email.svg" alt="E-mail" /><a href="mailto:vucetic@temple.edu">vucetic@temple.edu</a>
             </li>
             <li>
-              <img src="images/people/person/phone.svg" alt="Phone" /><a href="tel:215-204-5535" title"Call">(215) 204-5535</a>
+              <img src="images/people/person/phone.svg" alt="Phone" /><a href="tel:215-204-8450" title"Call">215-204-8450</a>
             </li>
           </ul>
         </div>
