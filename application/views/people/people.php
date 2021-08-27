@@ -4,7 +4,7 @@
         <div class="site-header">
           <h1>People</h1>
         </div>
-        <p>Center for Hybrid Intelligence (<abbr title="Center for Hybrid Intelligence">CHI</abbr>) faculty have expertise in Artificial Intelligence, Machine Learning, Human-Computer Interaction, Collaborative Systems, Data Science, Computer Vision, Robotics, Natural Language Processing, Information Retrieval, Behavioral Science, Cognitive Neuroscience, Optimization, Applied Math, and Software Development. CHI will continue to grow through hiring of new core faculty members, increasing its affiliate faculty membership, involving students in cognitive computing research, and developing collaborations with regional research institutions, industry, and nonprofits.</p>
+        <p>Center for Hybrid Intelligence (<abbr title="Center for Hybrid Intelligence">CHI</abbr>) faculty have expertise in Artificial Intelligence, Machine Learning, Human-Computer Interaction, Collaborative Systems, Data Science, Computer Vision, Robotics, Natural Language Processing, Information Retrieval, Behavioral Science, Cognitive Neuroscience, Optimization, Applied Math, and Software Development. CHI will continue to grow through hiring of new core faculty members, increasing its affiliate faculty membership, involving students in hybrid intelligence research, and developing collaborations with regional research institutions, industry, and nonprofits.</p>
       </div>
     </div>
 
@@ -86,19 +86,6 @@
       </div>
       <!-- End Person -->
       
-      <!-- Person -->
-      <div class="col-sm-4">
-        <a href="wehar" title="See more information">
-          <img src="images/people/core_faculty/no-image.svg" alt="TBD" />
-        </a>
-        <h4 class="name">TBD</h4>
-          <div class="department">Computer and Information Sciences</div>
-          <div class="specialty">(artificial intelligence)</div>
-          <a href="mailto:***@temple.edu">e-mail</a> / 
-          <a href="http:// " target="_blank">website</a> /
-          <a href="wehar">more info</a>
-      </div>
-      <!-- End Person -->
       
     </div>
 
