@@ -32,35 +32,7 @@
       
       <!-- Person -->
       <div class="col-sm-4">
-        <a href="ling" title="See more information">
-          <img src="images/people/core_faculty/no-image.svg" alt="Stephen MacNeil" />
-        </a>
-        <h4 class="name">Stephen MacNeil</h4>
-          <div class="department">Computer and Information Sciences</div>
-          <div class="specialty">(human-computer interaction, cooperative systems)</div>
-          <a href="mailto:stephen.macneil@gmail.com">e-mail</a> / 
-          <a href="https://stevemacn.github.io/" target="_blank">website</a> /
-          <a href="ling">more info</a>
-      </div>
-      <!-- End Person -->
-      
-      <!-- Person -->
-      <div class="col-sm-4">
-        <a href="wang" title="See more information">
-          <img src="images/people/core_faculty/no-image.svg" alt="Placeholder silhouette image of person" />
-        </a>
-        <h4 class="name">Pei Wang</h4>
-          <div class="department">Computer and Information Sciences</div>
-          <div class="specialty">(artificial intelligence)</div>
-          <a href="mailto:pei.wang@temple.edu">e-mail</a> / 
-          <a href="https://cis.temple.edu/~pwang/" target="_blank">website</a> /
-          <a href="wang">more info</a>
-      </div>
-      <!-- End Person -->
-      
-      <!-- Person -->
-      <div class="col-sm-4">
-        <a href="dragut" title="See more information">
+        <a  href="https://cis.temple.edu/~edragut/" target="_blank" title="See more information">
           <img src="images/people/core_faculty/dragut.png" alt="Eduard Dragut" />
         </a>
         <h4 class="name">Eduard Dragut</h4>
@@ -68,13 +40,13 @@
           <div class="specialty">(information integration, natural language processing)</div>
           <a href="mailto:edragut@temple.edu">e-mail</a> / 
           <a href="https://cis.temple.edu/~edragut/" target="_blank">website</a> /
-          <a href="dragut">more info</a>
+          <a  href="https://cis.temple.edu/~edragut/" target="_blank" >more info</a>
       </div>
       <!-- End Person -->
       
       <!-- Person -->
       <div class="col-sm-4">
-        <a href="ji" title="See more information">
+        <a href="https://www.cst.temple.edu/~tuo14379/" target="_blank" title="See more information">
           <img src="images/people/core_faculty/no-image.svg" alt="Hongchang Gao" />
         </a>
         <h4 class="name">Hongchang Gao</h4>
@@ -82,9 +54,39 @@
           <div class="specialty">(machine learning)</div>
           <a href="mailto:hongchang.gao@temple.edu">e-mail</a> / 
           <a href="https://www.cst.temple.edu/~tuo14379/" target="_blank">website</a> /
-          <a href="ji">more info</a>
+          <a href="https://www.cst.temple.edu/~tuo14379/" target="_blank">more info</a>
       </div>
       <!-- End Person -->
+        
+      <!-- Person -->
+      <div class="col-sm-4">
+        <a href="https://stevemacn.github.io/" target="_blank" title="See more information">
+          <img src="images/people/core_faculty/no-image.svg" alt="Stephen MacNeil" />
+        </a>
+        <h4 class="name">Stephen MacNeil</h4>
+          <div class="department">Computer and Information Sciences</div>
+          <div class="specialty">(human-computer interaction, cooperative systems)</div>
+          <a href="mailto:stephen.macneil@gmail.com">e-mail</a> / 
+          <a href="https://stevemacn.github.io/" target="_blank">website</a> /
+          <a href="https://stevemacn.github.io/" target="_blank">more info</a>
+      </div>
+      <!-- End Person -->
+      
+      <!-- Person -->
+      <div class="col-sm-4">
+        <a href="https://cis.temple.edu/~pwang/" target="_blank" title="See more information">
+          <img src="images/people/core_faculty/no-image.svg" alt="Placeholder silhouette image of person" />
+        </a>
+        <h4 class="name">Pei Wang</h4>
+          <div class="department">Computer and Information Sciences</div>
+          <div class="specialty">(artificial intelligence)</div>
+          <a href="mailto:pei.wang@temple.edu">e-mail</a> / 
+          <a href="https://cis.temple.edu/~pwang/" target="_blank">website</a> /
+          <a href="https://cis.temple.edu/~pwang/" target="_blank">more info</a>
+      </div>
+      <!-- End Person -->
+      
+      
       
       
     </div>
